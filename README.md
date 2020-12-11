@@ -33,10 +33,10 @@ There are other opptions to use FileSender
 Examples:
 
 Send normal file
-java FileSender <filePath> <host> <port>
+java FileSender (filePath) (host) (port)
 
 Send Folder
-java FileSender -f <folderPath> <host> <port>
+java FileSender -f (folderPath) (host) (port)
 
 Make New Folder 
-java FileSender -mkdir <dirName> <host> <port>
+java FileSender -mkdir (dirName) (host) (port)
