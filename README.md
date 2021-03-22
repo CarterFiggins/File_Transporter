@@ -15,28 +15,28 @@ move the FileReceiver.java to the computer/location that you would
 like the files/folders to go. 
 
 complie java
-run: javac FileReceiver.java
+run: `javac FileReceiver.java`
 
 Run server
-run: java FileReceiver (port) 
+run: `java FileReceiver (port)` 
 
 move the FileSender.java to computer/location that you would like to get the files to send. 
 
 compile java
-run: javac FileSender.java
+run: `javac FileSender.java`
 
 Send file
-run: java FileSender.java (filePath) (host) (port)
+run: `java FileSender.java (filePath) (host) (port)`
 
 There are other opptions to use FileSender
 
 Examples:
 
 Send normal file
-java FileSender (filePath) (host) (port)
+`java FileSender (filePath) (host) (port)`
 
 Send Folder
-java FileSender -f (folderPath) (host) (port)
+`java FileSender -f (folderPath) (host) (port)`
 
 Make New Folder 
-java FileSender -mkdir (dirName) (host) (port)
+`java FileSender -mkdir (dirName) (host) (port)`
